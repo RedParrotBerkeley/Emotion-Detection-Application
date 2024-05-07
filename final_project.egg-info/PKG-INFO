@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: final_project
+Version: 0.1
+Summary: A package for detecting emotions using the Watson NLP Library's Emotion Predict API
+Home-page: https://github.com/RedParrotBerkeley/EmotionDetection
+Author: RedParrotBerkeley
+Author-email: NANA@example.com
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests

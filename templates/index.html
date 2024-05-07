@@ -1,0 +1,19 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Emotion Detector</title>
+    <script src="{{ url_for('static', filename='mywebscript.js') }}"></script>
+</head>
+<body>
+    <h1>Emotion Detector</h1>
+    <form id="emotionForm">
+        <label for="statement">Enter your statement:</label><br>
+        <input type="text" id="statement" name="statement" required><br><br>
+        <input type="button" value="Analyze Emotion" onclick="analyzeEmotion()">
+    </form>
+    <div id="result"></div>
+</body>
+</html>
